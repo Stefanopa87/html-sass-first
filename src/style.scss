@@ -1,0 +1,47 @@
+
+
+// variabili
+
+$effectWow: magenta;
+
+$boxColor: white;
+
+// fine variabili
+
+
+body{
+    background-color: lightskyblue;
+
+    .box_{
+        border: solid 2px $boxColor;
+
+        button{
+            background-color: $effectWow;
+            display: flex;
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            color: $effectWow;
+        }
+
+        p{
+            transition: 1s;
+        }
+
+        p:hover{
+            transform: scale(1.2);
+        }
+
+        .minibox{
+            border: solid 2px $boxColor;
+            background-color: $effectWow;
+
+            h1{
+                text-align: center;
+                color: black;
+            }
+        }
+    }
+}

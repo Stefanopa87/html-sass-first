@@ -1,0 +1,29 @@
+body {
+  background-color: lightskyblue;
+}
+body .box_ {
+  border: solid 2px white;
+}
+body .box_ button {
+  background-color: magenta;
+  display: flex;
+  margin: auto;
+}
+body .box_ h1 {
+  text-align: center;
+  color: magenta;
+}
+body .box_ p {
+  transition: 1s;
+}
+body .box_ p:hover {
+  transform: scale(1.2);
+}
+body .box_ .minibox {
+  border: solid 2px white;
+  background-color: magenta;
+}
+body .box_ .minibox h1 {
+  text-align: center;
+  color: black;
+}
